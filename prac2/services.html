@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Modern Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">Logo</div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="auth-buttons">
+          <button class="btn btn-login" onclick="openModal('loginModal')">
+            Login
+          </button>
+          <button class="btn btn-signup" onclick="openModal('signupModal')">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Custom website development tailored to your needs.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Mobile Apps</h3>
+          <p>Native and cross-platform mobile applications.</p>
+        </div>
+        <div class="service-card">
+          <i class="fas fa-cloud"></i>
+          <h3>Cloud Solutions</h3>
+          <p>Scalable cloud infrastructure and services.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Login/Signup Modals (same as index.html) -->
+    <script src="script.js"></script>
+  </body>
+</html>
